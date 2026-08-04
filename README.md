@@ -12,4 +12,19 @@
 ```bash
 ./build.sh
 open desktoppet.app
+./run.sh
 ```
+
+## 打包成 .app
+`build.sh` 会生成 `desktoppet.app`（无 Dock 图标，LSUIElement）。
+
+## 目录
+- Sources/DogPet：全部 Swift 源码
+- Resources：放 dog_idle_0.png / dog_walk_0.png 等序列帧
+- Info.plist：Agent 应用配置
+
+## 交互
+- 左键点击 / 悬停：开心摇尾 + 随机气泡
+- 拖拽：移动小狗
+- 右键：喂食 / 玩球 / 休息 / 暂停移动 / 退出
+- 菜单栏小狗图标：召唤 / 隐藏 / 退出
