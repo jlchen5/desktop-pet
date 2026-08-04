@@ -11,5 +11,5 @@
 
 ```bash
 ./build.sh
-open DogPet.app
+open desktoppet.app
 ```
